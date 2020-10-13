@@ -29,9 +29,10 @@ File.WriteAllBytes("image.jpg", bytes);
 ```
 
 ## Optional parameters
-1. width - output document width. Default is 1024.
-2. format - output image format. Default is Jpg.
-3. quality - output image quality from 1 to 100. Default is 100.
+1. OutputSize - output image size, default is (1024, 768).
+2. OutputFormat - output image format. Default is Jpg.
+3. Quality - output image quality from 1 to 100. Default is 100.
+4. DisableSmartWidth - Disabling smart-width makes the process to listen to exact passes width
 
 ## Roadmap
 * Async methods
